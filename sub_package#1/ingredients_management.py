@@ -11,9 +11,11 @@ class RecipeManager:
             print(f"Added a new recipe: {recipe_name}")
         else:
             print(f"Recipe '{recipe_name}' already exists.")
-
+            
     def add_ingredients_to_recipe(self, recipe_name):
-        print(f"Enter the ingredients for '{recipe_name}' (one ingredient per line):")
+        if recipe_name not in self.recipes:
+            self.recipes[recipe_name] = [] 
+        print(f"Enter the ingredients for '{recipe_name}' (one ingredient per line)")
         while True:
             ingredient = input("Enter an ingredient (or enter 'done' when finished): ")
             if ingredient.lower() == 'done':
