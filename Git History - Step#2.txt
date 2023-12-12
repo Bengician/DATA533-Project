@@ -1,0 +1,180 @@
+commit 37c8550274abba2483e6b3c7f00d914f75a37d8e
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 11 21:25:58 2023 -0800
+
+    final push
+
+commit 4e16097782e3a46ace5a3c0c6bce0cf706f0df12
+Author: Sy Li <shengyao_li@outlook.com>
+Date:   Mon Dec 11 21:17:13 2023 -0800
+
+    adding testing files
+
+commit 9d435dc1d26e7343600f8858b2cc9970eb1a4dab
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 11 19:50:08 2023 -0800
+
+    adding test suite
+
+commit 0768566477dc6514e659af3bfb03cdebac000ee0
+Merge: 8fe509a aa21727
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 11 19:34:59 2023 -0800
+
+    Merge branch 'main' of https://github.com/Bengician/DATA533-Project
+
+commit 8fe509a5076cadcc745dc69a2f0622ab4de2b149
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 11 19:30:59 2023 -0800
+
+    adding unittest files
+
+commit aa21727fed24aacd4c112425a43bf96eed4d282a
+Author: Shengyao Li <144149961+Shengyaoli@users.noreply.github.com>
+Date:   Mon Dec 4 22:07:09 2023 -0800
+
+    test result screenshot
+
+commit f91ec80b736bba9479a90d090424993f79bf5433
+Author: Shengyao Li <144149961+Shengyaoli@users.noreply.github.com>
+Date:   Mon Dec 4 22:06:32 2023 -0800
+
+    test usage py file
+    
+    a test Python file demonstrating how to use the package.
+
+commit e5d48b9123d3988ee8a768ce22cc1d956cb6a9aa
+Author: Bengician <144201899+Bengician@users.noreply.github.com>
+Date:   Mon Dec 4 22:05:44 2023 -0800
+
+    Add files via upload
+
+commit 83a7eb60cd2e6e08212c13d73f7c49a57cabd34b
+Author: Bengician <144201899+Bengician@users.noreply.github.com>
+Date:   Mon Dec 4 22:05:16 2023 -0800
+
+    Delete testing.txt
+
+commit 7550d4047759965e4fb328f03717709f6ce33522
+Author: Shengyao Li <144149961+Shengyaoli@users.noreply.github.com>
+Date:   Mon Dec 4 22:01:12 2023 -0800
+
+    Update ingredients_management.py
+    
+    a small error in the add_ingredients_to_recipe function.
+
+commit c6b88ded57794d02ea05e267d2d34da4d3b412a6
+Merge: 02f4004 6d99183
+Author: Shengyao Li <144149961+Shengyaoli@users.noreply.github.com>
+Date:   Mon Dec 4 18:29:11 2023 -0800
+
+    Merge pull request #3 from Bengician/ShengyaoBranch
+    
+    adding sub_package2
+
+commit 02f40046bcad4cb37b33c8d46e96be7c435b7064
+Merge: c120dbb c358935
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:56:21 2023 -0800
+
+    Merge branch 'BenBranch'
+
+commit c120dbbaf1162b9ad58051c33ade5e8028a60a62
+Merge: 38ed92a 751f162
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:53:49 2023 -0800
+
+    Merge branch 'main' of https://github.com/Bengician/DATA533-Project
+
+commit 38ed92adddb80b2be529ffe3a12677fff6567bed
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:51:17 2023 -0800
+
+    readding
+
+commit c3589354c6c94458ee218c190167520b173f2cbb
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:45:33 2023 -0800
+
+    change folder name
+
+commit 327a81dd32eed364ffd445ee712d3555654f9ec3
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:41:54 2023 -0800
+
+    Add py files
+
+commit 6d99183e84a2e0210015b95ffd3dd1098db71ed3
+Author: Sy Li <shengyao_li@outlook.com>
+Date:   Mon Dec 4 17:37:47 2023 -0800
+
+    adding sub_package2
+
+commit 7fc4fbdca44194445fa71318fd1bcf176d4c9fef
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:30:29 2023 -0800
+
+    adding text files
+
+commit 751f162584716e6add5e26afb981e34bdfb843eb
+Merge: b5acab8 5d8c005
+Author: Bengician <144201899+Bengician@users.noreply.github.com>
+Date:   Mon Dec 4 17:13:38 2023 -0800
+
+    Merge pull request #2 from Bengician/BenBranch
+    
+    Ben branch
+
+commit 5d8c0059049700cb07b4badf0144ded64fd2dda0
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 17:12:43 2023 -0800
+
+    add md file
+
+commit b5acab828c5b43f9e7fdd44c2f6bbbe64a32059e
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 15:27:15 2023 -0800
+
+    delete text file
+
+commit cecfb99bd54bab07f03b172d2341ccd8b043e66b
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 15:26:44 2023 -0800
+
+    another test
+
+commit 2c2610cbd5ad9b606b4756e79a2adcebfa9318eb
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 15:15:34 2023 -0800
+
+    BenBranch
+
+commit 04e5b963fe26bb40efd23b6ba7d4809c17007d76
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 15:10:51 2023 -0800
+
+    delete text fie
+
+commit 53ee3fdfb98c6ed691d0ea1d996becd48d69e37a
+Author: Ben Stoller <Bengician>
+Date:   Mon Dec 4 15:06:33 2023 -0800
+
+    testing
+
+commit b27b1afa6905deae6b2ea8aae6a6b71a3afe09e5
+Author: Ben Stoller <Bengician>
+Date:   Sat Dec 2 17:04:08 2023 -0800
+
+    Ben2
+
+commit 35ab3c910ce455d0bf855c43ff4abadc24fb4190
+Author: Ben Stoller <Bengician>
+Date:   Sat Dec 2 17:01:52 2023 -0800
+
+    testing
+
+commit 412d18790184e5366af0811d932e27cfdcc97e74
+Author: Bengician <144201899+Bengician@users.noreply.github.com>
+Date:   Sat Dec 2 16:01:53 2023 -0800
+
+    Initial commit
