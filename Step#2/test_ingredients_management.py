@@ -12,7 +12,6 @@ class TestRecipeManager(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         print(f"Tearing down common data for all tests")
-        # Perform any necessary cleanup here
 
     def setUp(self):
         self.recipes = {}
@@ -27,6 +26,9 @@ class TestRecipeManager(unittest.TestCase):
     def test_add_recipe(self):
         self.assertIn(self.recipe_name, self.recipes)
         self.assertEqual(len(self.recipes[self.recipe_name]), 0)
+        new_recipe_name = "New Recipe"
+        self.assertNotIn(new_recipe_name, self.recipes)
+        self.recipes[new_recipe_name] = ["Ingredient 1", "Ingredient 2"]
 
     def test_add_ingredient(self):
         initial_ingredient_count = len(self.recipes[self.recipe_name])
