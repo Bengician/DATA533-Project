@@ -23,7 +23,6 @@ requests-toolbelt==1.0.0
 rfc3986==2.0.0
 rich==13.7.0
 setuptools==69.0.2
-SmartShopper @ file:///C:/Users/Admin/Desktop/MDS/DATA533/SmartShopper/Publish/dist/SmartShopper-0.1.0-py3-none-any.whl#sha256=e55ddfd9c744b26aaa788ab60d3ab27cb86360307754163ef465e6fde17618d7
 twine==4.0.2
 urllib3==2.1.0
 zipp==3.17.0
