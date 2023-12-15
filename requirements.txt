@@ -1,0 +1,30 @@
+build==1.0.3
+certifi==2023.11.17
+charset-normalizer==3.3.2
+colorama==0.4.6
+coverage==7.3.3
+docutils==0.20.1
+idna==3.6
+importlib-metadata==7.0.0
+jaraco.classes==3.3.0
+keyring==24.3.0
+markdown-it-py==3.0.0
+mdurl==0.1.2
+more-itertools==10.1.0
+myCalculatorPackage @ file:///C:/Users/Admin/Desktop/MDS/DATA533/Lectures/myCalculatorPackage/dist/myCalculatorPackage-0.0.2-py3-none-any.whl#sha256=b08fdb28092183f2d6647cff68803d1a2bb01bd806ac3c542c96f3da7e5c5789
+nh3==0.2.15
+packaging==23.2
+pkginfo==1.9.6
+Pygments==2.17.2
+pyproject_hooks==1.0.0
+pywin32-ctypes==0.2.2
+readme-renderer==42.0
+requests==2.31.0
+requests-toolbelt==1.0.0
+rfc3986==2.0.0
+rich==13.7.0
+setuptools==69.0.2
+SmartShopper @ file:///C:/Users/Admin/Desktop/MDS/DATA533/SmartShopper/Publish/dist/SmartShopper-0.1.0-py3-none-any.whl#sha256=e55ddfd9c744b26aaa788ab60d3ab27cb86360307754163ef465e6fde17618d7
+twine==4.0.2
+urllib3==2.1.0
+zipp==3.17.0
