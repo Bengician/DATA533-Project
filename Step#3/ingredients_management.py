@@ -1,74 +1,58 @@
 # sub-package#1, module 1
 
+class RecipeNotFoundException(Exception):
+    def __init__(self, message="Recipe not found"):
+        self.message = message
+        super().__init__(self.message)
+
 class RecipeManager:
     def __init__(self):
         self.recipes = {}
 
     def add_recipe(self):
+        #exception_1
         try:
-            recipe_name = input("Enter the name of the dish you can cook: ")
+            recipe_name = input("Enter the name of the dish you can cook: ").strip()
             if not recipe_name:
                 raise ValueError("Recipe name cannot be empty.")
-            
-            if recipe_name in self.recipes:
-                raise ValueError(f"Recipe '{recipe_name}' already exists.")
-            
-            self.recipes[recipe_name] = []
-            print(f"Added a new recipe: {recipe_name}")
-        except ValueError as ve:
-            print(f"Error adding recipe: {ve}")
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+            if recipe_name not in self.recipes:
+                self.recipes[recipe_name] = []
+                print(f"Added a new recipe: {recipe_name}")
+            else:
+                print(f"Recipe '{recipe_name}' already exists.")
+        except ValueError as e:
+            print(e)
 
     def add_ingredients_to_recipe(self, recipe_name):
+        #exception_2 (user-defined exception)
         try:
-            if not recipe_name:
-                raise ValueError("Recipe name cannot be empty.")
-            
             if recipe_name not in self.recipes:
-                self.recipes[recipe_name] = [] 
-
+                raise RecipeNotFoundException(f"'{recipe_name}' does not exist in your recipe list.")
             print(f"Enter the ingredients for '{recipe_name}' (one ingredient per line)")
             while True:
                 ingredient = input("Enter an ingredient (or enter 'done' when finished): ")
-                if not ingredient:
-                    raise ValueError("Ingredient cannot be empty.")
-                
                 if ingredient.lower() == 'done':
                     break
-                self.recipes[recipe_name].append(ingredient)
-                
+                if not ingredient.strip():
+                    raise ValueError("Ingredient cannot be empty.")
+                self.recipes[recipe_name].append(ingredient.strip())
             print(f"Ingredients for {recipe_name} have been added.")
-        except ValueError as ve:
-            print(f"Error adding ingredients: {ve}")
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+        except RecipeNotFoundException as e:
+            print(e)
+        except ValueError as e:
+            print(e)
 
     def display_ingredients(self, recipe_name):
-        try:
-            if not recipe_name:
-                raise ValueError("Recipe name cannot be empty.")
-            
-            if recipe_name in self.recipes:
-                ingredients = self.recipes[recipe_name]
-                print(f"To cook '{recipe_name}', you will need the following ingredients:")
-                for ingredient in ingredients:
-                    print(f"- {ingredient}")
-            else:
-                print(f"Sorry, '{recipe_name}' is not in your recipe list.")
-        except ValueError as ve:
-            print(f"Error displaying ingredients: {ve}")
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+        if recipe_name in self.recipes:
+            ingredients = self.recipes[recipe_name]
+            print(f"To cook '{recipe_name}', you will need the following ingredients:")
+            for ingredient in ingredients:
+                print(f"- {ingredient}")
+        else:
+            print(f"Sorry, '{recipe_name}' is not in your recipe list.")
 
     def choose_recipe(self):
-        try:
-            recipe_name = input("Enter the name of the dish you want to cook today: ")
-            if not recipe_name:
-                raise ValueError("Recipe name cannot be empty.")
-            
-            self.display_ingredients(recipe_name)
-        except ValueError as ve:
-            print(f"Error choosing recipe: {ve}")
-        except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+        recipe_name = input("Enter the name of the dish you want to cook today: ")
+        self.display_ingredients(recipe_name)
+
+
